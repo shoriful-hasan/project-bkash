@@ -1,0 +1,143 @@
+/* NAVBER CSS DESIGN START HERE */
+body
+{
+overflow-x: hidden;    
+}
+
+.navbar
+{
+background: #E2136E !important;    
+}
+.navber-item-design:hover
+{
+border: 1px dotted white;
+border-radius: 29px;
+}
+
+
+.navber-button-custom-design
+{
+width: 120px;
+height: 30px;   
+border-radius: 30px;
+margin-top: -20px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 13px;
+padding-left:10px;
+padding-right:10px; 
+outline: none;
+border: 2px solid white;
+background: #E2136E;
+color: white;
+}
+
+
+.nij-cls
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;    
+}
+.nij-cls img
+{
+width: 150px;  
+margin-top: 20px;  
+}
+
+.first-hver
+{
+
+transition: .3;    
+}
+.first-hver:hover .first-change-hobay
+{
+ color: #E2136E;   
+}
+.best-offer
+{
+ margin-top: 10px;   
+margin-bottom: 80px !important;    
+}
+
+/* ব্যবসার জন্য বিকাশ  start here*/
+
+.b-kash-left-right-emg
+{
+display: flex;
+justify-content: center;
+}
+
+
+/* ব্যবসার জন্য বিকাশ  end here*/
+
+/* নতুন কী আছে বিকাশ এ start here */
+
+.newbkash-hver:hover h6
+{
+color: #E2136E !important;
+}
+
+
+.design
+{
+margin-top: 20px;    
+border: 1px solid #E2136E;
+width:200px;
+height: 48px;
+color: #E2136E;
+background: white;
+font-weight: 800;
+font-size: 20px;
+border-radius: 30px;   
+}
+/* নতুন কী আছে বিকাশ এ end here */
+
+
+
+/* নিকটস্থ বিকাশ পয়েন্ট START HERE*/
+.agent-bkash
+{
+    
+text-align: center;
+}
+
+
+/* নিকটস্থ বিকাশ পয়েন্ট END HERE*/
+
+
+
+
+/* footer css design start here */
+
+.tomer-ses ul li a
+{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.tomer-ses ul li
+{
+padding-top: 10px;
+padding-bottom: 10px;    
+}
+.tomer-ses ul span
+{
+font-weight: 600;
+font-size: 18px;    
+}
+/* footer css design end here */
+.object-cover
+{
+object-fit: cover;  
+}
+
+
+
+
+
+.aspect{
+aspect-ratio: 1 /1;
+}

@@ -1,0 +1,60 @@
+@media(max-width:768px){
+.amar-rew
+{
+display:flex;
+flex-direction: column;
+align-content: center;
+}
+
+.bhola
+{
+font-size: 20px !important;      
+}
+.bholah
+{
+text-align: center;
+margin-bottom: 30px !important;
+font-size: 40px !important;        
+}
+}
+@media(max-width:768px){
+    .desh
+    {
+    width: 100%;    
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    }
+    
+    }
+
+
+
+
+
+
+    @media(max-width:992px){
+        .tomer
+        {
+display: none !important;
+        }
+        
+.top-text h1
+{
+font-size: 15px;    
+}
+.top-text p
+{
+font-size:9px;    
+}
+
+
+
+.aktu-lekho
+{
+display: flex;
+justify-content: center;
+align-items: center;        
+}
+        }

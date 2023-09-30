@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বিকাশ</title>
+
+
+    <link rel="shortcut icon" type="x-icon" href="img/bkicon.png">
+    <link rel="stylesheet" href="bootstrapefolder/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrapefolder/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrapefolder/css/style.css">
+    <link rel="stylesheet" href="bootstrapefolder/css/responsive.css">
+
+  </head>
+  <body>
+
+
+    <!-- NAVBER DESIGN STATR HERE -->
+    <nav class="navbar navbar-expand-xl">
+      <div class="container">
+        <a class="navbar-brand text-white fs-3 fw-lighter" href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 122 54" width="140" height="62" xml:space="preserve">
+            <title>bKash Logo</title>
+            <g fill="#FFFFFF">
+                <polygon points="82.9,25.9 86.2,40.5 107.7,29.8"></polygon>
+                <polygon points="89,3.8 83.2,25 107.2,28.8"></polygon>
+                <polygon points="62.8,0.6 88.3,3.7 82.3,25.5"></polygon>
+                <polygon points="62.5,4.8 65.5,4.8 73.5,15.1"></polygon>
+                <polygon points="108.4,29.6 100.9,19.3 112.9,17"></polygon>
+                <polygon points="107.2,32.5 107.9,30.3 89.2,39.9"></polygon>
+                <polygon points="82.4,26.3 86.3,44 74.7,53.4"></polygon>
+                <polygon points="111.8,22.3 118.8,22.3 113.7,17.2"></polygon>
+                <path d="M5.4 21.2h15.2v2.2H5.2v17.8c0 0-.7-.1-1.1-.1-.4 0-.9.1-.9.1V23.4v-2.2-.1c0-5.2 2-8.2 7-8.5 4.5-.3 8 2.3 10.4 3.6v2.6l-.3.1c-.4-1-5.8-5.5-9.3-5.1-3.6.4-5.8 2.9-5.8 6.2C5.2 20 5.2 20.9 5.4 21.2L5.4 21.2zM36.6 24.9c3.8-.1 5.7 1.2 5.8 4.1.1 1.6-.6 3.1-1.7 4.4l-1.9.1v-.3c.7-.2 2.3-1.3 2.2-3.3s-1.6-3.6-4-3.5c0 0-.4 0-.6.1L36.6 24.9z"></path>
+                <polygon points="18.5,23 20.6,23 20.6,41.2 18.5,40.5"></polygon>
+                <path d="M57.3,25.5c-0.8-2.7-3.1-4.3-4.8-4.3H48v2.2H51c1.3,0,2.6-0.1,3.8,1c0.5,0.5,0.7,1,0.9,1.7 c0.4,1.7-0.4,3.8-2.4,3.8c-0.6,0-1.3,0-1.9-0.2v0.1c0.5,0.6,0.8,1.4,1.2,2.1c1.2-0.2,2.4-0.9,3.2-1.7 C56.9,28.9,57.6,27.3,57.3,25.5"></path>
+                <path d="M60.6 21.5c-1.3.2-3.3 1.3-4 4.1-.2 1.8.3 3.4 1.5 4.6.7.8 1.8 1.5 2.8 1.7.3-.7.7-1.4 1.1-2.1l-.1-.1c-.5.2-1.1.2-1.7.2-2.1-.1-2.4-2.2-2.1-3.8.3-1.4 1.5-2.8 2.8-2.9 1.4-.1 3.1 1 3.4 2.5.2.8.2 1.6.2 2.4v13.2c0 0 .6-.1 1-.1s1 .1 1 .1V21.4h-2.2v2.2c0-.1.1-.1 0-.3C63.6 22 61.8 21.3 60.6 21.5M47.6 21.2v2.2 17.8c0 0-.6-.1-1-.1s-1 .1-1 .1V23.4H21.1v-2.2H47.6zM20.6 41.2h-.3c-7.8 0-12.2-4.3-12.2-8.6 0-3.6 3.3-7.8 10.9-7.8l1.3 1c-5.3 0-9.6 3.4-9.6 6.8 0 3 3.8 7.8 9.9 7.8V41.2z"></path>
+                <polygon points="34.8,23 36.9,23 36.9,41.2 34.8,40.5"></polygon>
+                <path d="M36.9,41.2h-0.3c-7.8,0-12.2-4.3-12.2-8.6c0-3.6,3.3-7.8,10.9-7.8l1.3,1c-5.3,0-9.6,3.4-9.6,6.8 c0,3,3.8,7.8,9.9,7.8V41.2z"></path>
+            </g>
+        </svg>
+
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon bg-white"><i class="bi bi-upc"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+      
+            <li class="nav-item navber-item-design"><a href ="campaign.html" class="nav-link text-white ms-4">ক্যাম্পেইন</a></li>
+           
+
+            <li class="nav-item  navber-item-design"><a href="services.html" class="nav-link text-white ms-4">সার্ভিসেস</a></li>
+- 
+            <li class="nav-item  navber-item-design"><a href="business.html"  class="nav-link text-white ms-4">বিজনেস</a></li>
+            <li class="nav-item  navber-item-design"><a href="help.html"  class="nav-link text-white ms-4">হেল্প</a></li>
+            <li class="nav-item  navber-item-design"><a href="carrier.html"  class="nav-link text-white ms-4">ক্যারিয়ার</a></li>
+
+- 
+            <li class="nav-item  navber-item-design"><a href class="nav-link text-white ms-4">পরিচিতি</a></li>
+            <li class="nav-item  navber-item-design"><a href class="nav-link text-white ms-4 ">ব্লগ</a></li>  
+
+            <li class="nav-item  navber-item-design"><a href class="nav-link text-white ms-4">পরিচিতি</a></li>
+            <li class="nav-item  navber-item-design"><a href class="nav-link text-white ms-4 ">ব্লগ</a></li>  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR DESIGN END HERE -->
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+    <!--FIRST  FADING CAROUSEL EFFECT START HERE  -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade py-0"
+      data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img
+            src="https://www.bkash.com/uploaded_contents/banners/desktop/Business-Hero-Banner_Nisho_1682399227820.webp"
+            class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <img
+            src="https://www.bkash.com/uploaded_contents/banners/desktop/No-1-Brand-1920x500_1675085573334.webp"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000" ;>
+          <img
+            src="https://www.bkash.com/uploaded_contents/banners/desktop/7-crorewebsite-banner_1692879462950.webp"
+            class="d-block w-100" alt>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="img/website-home-page-image-1920x500-1_1693306145589.webp"
+            class="d-block  w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button"
+        data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"
+        data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FIRST FADING CAROUSEL EFFECT END HERE - -->
+    <!-- ---------------=====================+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+    <!-- START HERE সব আর্থিক সল্যুশন  এক প্লাটফর্মে -->
+     <div class="container mt-5 mb-5 design-koro">
+      <div class="col text-center mt-5 mb-5">
+        <h4 class="fs-2"
+          style="font-weight: 700!important; margin-top: 50px !important; margin-bottom: 50px !important;">সব
+          আর্থিক ‍সল্যুশন এক প্ল্যাটফর্মে</h4>
+      </div>
+      <div class="row ">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card first-hver"
+            style="box-shadow: 10px 1px 8px 1px rgba(0,0,0,0.1); border-radius: 12px;">
+            <div class=" nij-cls">
+              <img src="img/02-MR_1675086074167.webp" class="card-img-top"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title mb-4 mt-3 first-change-hobay"
+                style="font-weight:540;opacity: .9;">মোবাইল রিচার্জ</h3>
+              <p class="card-text mt-5 mb-5 best-offer">রিচার্জ করুন যেকোনো
+                নাম্বারে, <br>সেরা অফারের সাথে</p>
+              <a href="#" class="text-decoration-none last-de"
+                style="color: #e2136e;">বিস্তারিত জানুন</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card first-hver"
+            style="box-shadow: 10px 1px 8px 1px rgba(0,0,0,0.1); border-radius: 12px;">
+            <div class=" nij-cls">
+              <img src="img/01-send-money_1675086055016.webp" class="card-img-top"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title mb-4 mt-3 first-change-hobay"
+                style="font-weight:540;opacity: .9;">সেন্ড মানি</h3>
+              <p class="card-text mt-5 mb-5 best-offer">টাকা পাঠান বিকাশ থেকে যেকোনো নাম্বারে, মুহূর্তেই</p>
+              <a href="#" class="text-decoration-none last-de"
+                style="color: #e2136e;">বিস্তারিত জানুন</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card first-hver"
+            style="box-shadow: 10px 1px 8px 1px rgba(0,0,0,0.1); border-radius: 12px;">
+            <div class=" nij-cls">
+              <img src="img/03-cashout_1675086091067.webp" class="card-img-top"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title mb-4 mt-3 first-change-hobay"
+                style="font-weight:540;opacity: .9;">ক্যাশ আউট</h3>
+              <p class="card-text mt-5 mb-5 best-offer">টাকা তুলুন দেশের সবচেয়ে বড় এজেন্ট এবং এটিএম নেটওয়ার্কে</p>
+              <a href="#" class="text-decoration-none last-de"
+                style="color: #e2136e;">বিস্তারিত জানুন</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card first-hver"
+            style="box-shadow: 10px 1px 8px 1px rgba(0,0,0,0.1); border-radius: 12px;">
+            <div class=" nij-cls">
+              <img src="img/04-payment_1675086111196.webp" class="card-img-top"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h3 class="card-title mb-4 mt-3 first-change-hobay"
+                style="font-weight:540;opacity: .9;">পেমেন্ট</h3>
+              <p class="card-text mt-5 mb-5 best-offer">সারাদেশে অনলাইন এবং QR স্ক্যান করে, সবচেয়ে দ্রুত পেমেন্ট করুন বিকাশ-এ</p>
+              <a href="#" class="text-decoration-none last-de"
+                style="color: #e2136e;">বিস্তারিত জানুন</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+    <!-- END HERE সব আর্থিক সল্যুশন  এক প্লাটফর্মে -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- start  বিকাশ এর সার্ভিস সম্পর্কে আরো জানুন here -->
+
+     <!-- <div class="container mb-4">
+      <h3 class="position-relative text-center title-line fw-bold mb-5">বিকাশ-এর
+        সার্ভিস সম্পর্কে আরো জানুন</h3>
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/01-send-money_1666154832042.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">সেন্ড মানি</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/02-mobile-recharge_1666155167971 (1).webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">মোবাইল রিচার্জ</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/03-cash-out_1666158620022.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">ক্যাশ আউট</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/04-payment_1666159400113.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">পেমেন্ট</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/05-add-money_1666160847291.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">অ্যাড মানি</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/06-pay-bill_1666162662135.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">পে বিল</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/07-savings_1666167828748.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">সেভিংস</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/08-loan_1669656798833.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">লোন</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/10-transfer-money_1666169481952 (1).webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">বিকাশ টু ব্যাংক</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/09-remittance_1666168732360.webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">রেমিটেন্স</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/11-education_1669657823727 (1).webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">এডুকেশন ফি</h5>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/12-NGO_1669658036501 (1).webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">মাইক্রোফাইন্যান্স</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/13_1669034799648 (1).webp"
+                  class="card-img-top w-50" alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">ডোনেশন</h5>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-2">
+            <div class="card border-0" style="width: 10rem;">
+              <div class="col d-flex justify-content-center">
+                <img src="img/insurance.webp" class="card-img-top w-50"
+                  alt="...">
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title text-center">ইন্স্যুরেন্স</h5>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>  -->
+
+    <!--End বিকাশ এর সার্ভিস সম্পর্কে আরো জানুন  here -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- ++++++++++++++++++++++++++++++ -->
+
+    <!-- MIDDLE BANNER START HERE  -->
+   <div class="container-fluid">
+      <div class="row amar " style="background: url(img/static-banner.webp);">
+        <div class="col-lg-8 col-md-6 col-sm-12 banner-left-side-design">
+          <h3 style="color: #e2136e; font-weight: 800;">বিকাশ অ্যাপ ডাইনলোড করুন</h3>
+          <p class="text-white">বিকাশ অ্যাপ থেকে সহজেই একাউন্ট খুলে বুঝে নিন ১২৫
+            টাকা পর্যন্ত বোনাস</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <img src="img/static-banner-content_1677695633940.webp" alt>
+          </div>
+        </div>
+
+      </div>
+    </div>  
+    <!-- MIDDLE BANNER END HERE -->
+<!-- ++++++++++++++++++++++++++++++++ -->
+
+
+<!-- ব্যবসার জন্য বিকাশ START HERE -->
+<section class="busines-bkash pt-5 pb-5">
+<div class="container ">
+  <h2 class="text-center">ব্যবসার জন্য বিকাশ</h2>
+  <div class="row justify-content-center">
+    <div class="col  col-md-7">
+      <p class="lead text-center fw-normal" style="line-height: 40px;">বিকাশ-এর আর্থিক সল্যুশনের মাধ্যমে আপনার ব্যবসায়িক লেনদেন করতে পারবেন আরো দ্রুত, সহজে ও নিরাপদে। তাই আরো দক্ষভাবে ব্যবসা পরিচালনা করুন বিকাশ এর মাধ্যমে।</p>
+    </div>
+  </div>
+
+
+<!-- left-side-here start-->
+<div class="row amar-rew mt-5" >
+  <div class="col-6">
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6 mb-3" >
+
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/04-online-business_1666262655459 (1).webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">অনলাইন ব্যবসা</h6>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-3" >
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/06-merchant_1666263856311 (1).webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">মার্চেন্ট</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-3" >
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/05-education-institute_1666262925655.webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">শিক্ষা প্রতিষ্ঠান</h6>
+        </div>
+      </div>
+    </div>
+   
+
+    <div class="col-lg-4 col-md-6 mb-3" >
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/02-corporate-_-business_1666262309776.webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">কর্পোরেট এবং এন্টারপ্রাইজ</h6>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 mb-3" >
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/03-NGO_1666262448062.webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">মাইক্রোফাইন্যান্স</h6>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-lg-4 col-md-6 mb-3" >
+      <div class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;" >
+        <div class="b-kash-left-right-emg mt-3">
+          <img src="img/05-education-institute_1666262925655.webp" class="card-img-top w-75" alt="...">
+        </div>
+        <div class="card-body mt-4">
+          <h6 class="card-title text-center">অনলাইন ব্যবসা</h6>
+        </div>
+      </div>
+    </div>
+   
+
+    
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+  <div class="col-6">
+    <div class="col">
+      <img src="img/homepage-business-static_1677695675835.webp"  class="img-fluid" alt ="600">
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<!-- left-side-here end-->
+</div>
+</section>   
+<!-- ব্যবসার জন্য বিকাশ END HERE -->
+
+
+
+
+<!-- নতুন কী আছে বিকাশে START HERE -->
+<div class="container mt-5 mb-5">
+  <div class="col text-center mb-5"><h1 class="fw-bolder fs-1">নতুন কী আছে বিকাশ এ</h1></div>
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6 mb-3">
+      <div class="card newbkash-hver" style="width:100%; border-radius: 15px;">
+        <img src="img/primeminister.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title fw-bold">ফিনটেক পাইওনিয়ার-এর সম্মাননা</h6>
+          <div class="d-flex justify-content-between mt-5 mb-3">
+            <div><span style="font-size: 13px;">পোস্টের তারিখ ০৮ আগস্ট</span></div>
+            <div><span style="font-size: 13px;">১৫ মিনিটের পাঠ্য</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-3">
+      <div class="card newbkash-hver" style="width:100%;border-radius: 15px;">
+        <img src="img/bkashceo.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title fw-bolder">bKash CEO on the Transformative Impact of Financial Inclusion</h6>
+          <div class="d-flex justify-content-between mt-5">
+            <div><span style="font-size: 13px;">পোস্টের তারিখ ০৮ আগস্ট</span></div>
+            <div><span style="font-size: 13px;">১৫ মিনিটের পাঠ্য</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-3">
+      <div class="card newbkash-hver" style="width:100%;border-radius: 15px;">
+        <img src="img/argentina.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title fw-bold">বিশ্বসেরা আর্জেন্টিনার সাথে দেশসেরা বিকাশ!</h6>
+          <div class="d-flex justify-content-between mt-5">
+            <div><span style="font-size: 13px;">পোস্টের তারিখ ০৮ আগস্ট</span></div>
+            <div><span style="font-size: 13px;">১৫ মিনিটের পাঠ্য</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="col text-center">
+<button class="design">সব দেখুন</button>
+</div>
+
+  </div>
+</div>
+<!-- নতুন কী আছে বিকাশে END HERE -->
+
+
+
+
+<!-- নিকটস্থ বিকাশ পয়েন্ট START HERE -->
+<div class="container">
+  <div class="row" style="overflow: hidden;">
+
+    <div class="col-lg-6 col-sm-12 mb-3 "  data-aos="fade-right"  data-aos-offset="500"  data-aos-duration="800" data-aos-easing="ease-in-sine" >
+      <div class="card" style="width: 100%;box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;">
+ 
+        <div class="card-body text-center mb-3">
+          <h5 class="card-title fw-bolder mt-3">এজেন্ট পয়েন্ট</h5>
+          <p class="card-text">সারাদেশের সক্রিয় এজেন্ট পয়েন্টের তালিকা</p>
+        </div>
+        
+        <div class="agent-bkash">
+        <img src="img/01-agent_1673950929273.webp" class="card-img-top w-75" alt="...">
+        </div>
+      </div>
+    </div>
+         
+    <div class="col-lg-6 col-sm-12 mb-3" data-aos="fade-left"  data-aos-offset="500"   data-aos-duration="800"  data-aos-easing="ease-in-sine" >
+      <div class="card" style="width: 100%;box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;">
+ 
+        <div class="card-body text-center mb-3">
+          <h5 class="card-title fw-bolder mt-3">এটিএম ক্যাশ আউট পয়েন্ট</h5>
+          <p class="card-text">ক্যাশ আউট করা যায় এমন পার্টনার ব্যাংকগুলোর তালিকা</p>
+        </div>
+        
+        <div class="agent-bkash">
+        <img src="img/02-atm cashout_1673951088909.webp" class="card-img-top w-75" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-sm-12 mb-3"  data-aos="fade-right" data-aos-offset="300"   data-aos-duration="800"  data-aos-easing="ease-in-sine">
+      <div class="card" style="width: 100%;box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;">
+ 
+        <div class="card-body text-center mb-3">
+          <h5 class="card-title fw-bolder mt-3">গ্রাহক সেবা পয়েন্ট</h5>
+          <p class="card-text">সারাদেশের গ্রাহক সেবা কেন্দ্রসমূহের তালিকা</p>
+        </div>
+        
+        <div class="agent-bkash">
+        <img src="img/03-customer-care-points_1673951111040.webp" class="card-img-top w-75" alt="...">
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-6 col-sm-12 mb-3" data-aos="fade-left"  data-aos-offset="300"   data-aos-duration="800" data-aos-easing="ease-in-sine" >
+      <div class="card" style="width: 100%;box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;">
+ 
+        <div class="card-body text-center mb-3">
+          <h5 class="card-title fw-bolder mt-3">বিকাশ মার্চেন্ট</h5>
+          <p class="card-text">সারাদেশের যেসকল মার্চেন্ট বিকাশ পেমেন্ট গ্রহন করে তাদের তালিকা</p>
+        </div>
+        
+        <div class="agent-bkash">
+        <img src="img/04-bKash-merchants_1673951046663.webp" class="card-img-top w-75" alt="...">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<!-- নিকটস্থ বিকাশ পয়েন্ট END HERE -->
+
+
+<!-- দারুণ সব বিকাশ অফার নিন START HERE -->
+<section class="mt-5 mb-5" style="background: #fff0f6;">
+<div class="container">
+  <div class="row amar-rew">
+    <div class="col-lg-5" style="display: flex; align-items: center; text-align: center; justify-content: center;">
+      <div class="mt-5 top-text" style="line-height: 70px; text-align: left;">
+        <h1 class="fw-bold">দারুণ সব বিকাশ অফার নিন</h1>
+        <p >পেমেন্ট বিকাশ করে আকর্ষণীয় ক্যাশব্যাক ও ডিসকাউন্ট অফার নিন</p>
+        <button class="tomer" style="display: flex; justify-content: center; align-items: center; width:160px; height: 50px; border: 1px solid #e2136e; border-radius: 40px; color: #e2136e;">আরো অফার দেখুন</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="col-lg-7 col-md-12 mt-5">
+      <div class="row">
+       
+          <div class="col-12">
+            <div class="card mb-3 w-100" style="border-radius: 6px;">
+              <img src="img/Free-Pay-Bill-1458x540_1669611915230.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">চার্জ ফ্রি বিদ্যু্ বিল</h5>
+              
+                <p class="card-text text-muted" style="font-size: 13px;">বিল বিকাশ চার্জ ফ্রি,৪টি বিদ্যু্ বিল পর্যন্ত</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row desh">
+          <div class="col-lg-6 col-md-12  mb-3" style="display: flex; justify-content: center;">
+            <div class="card" style="width:19rem; border-radius: 12px;">
+              <img src="img/Reward-Lifestyle-Website-Banner-400x300_jpeg_1670412228412.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-6">রিওয়ার্ড মার্চেন্ট - লাইফস্টাইল</h5>
+                <p class="card-text text-muted" style="font-size: 11px;">বিভিন্ন ক্যাটাগরিতে বিকাশ পেমেন্টে আকর্ষণীয় অফার!</p>
+ 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 mb-3" style="display:flex; justify-content: center;">
+            <div class="card" style="width:19rem; border-radius: 20px;">
+              <img src="img/right.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title fw-bold">বিদ্যুৎ বিল বিকাশ করলেই ২০০টাকা</h6>
+                <p class="card-text text-muted" style="font-size: 11px;">বিদ্যুৎ বিল বিকাশ করলেই ২০০ টাকার উপহার!</p>
+            
+              </div>
+            </div>
+          </div>
+          </div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- দারুণ সব বিকাশ অফার নিন END HERE -->
+
+
+
+
+
+<!-- footer start here  -->
+<footer style="background:#1e1e1e;margin-top: 30px;">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-12 col-md-6">
+          <div class="footer-design" style="color: white;">
+            
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 122 54" width="140" height="62" xml:space="preserve">
+                <title>bKash Logo</title>
+                <g fill="#FFFFFF">
+                    <polygon points="82.9,25.9 86.2,40.5 107.7,29.8"></polygon>
+                    <polygon points="89,3.8 83.2,25 107.2,28.8"></polygon>
+                    <polygon points="62.8,0.6 88.3,3.7 82.3,25.5"></polygon>
+                    <polygon points="62.5,4.8 65.5,4.8 73.5,15.1"></polygon>
+                    <polygon points="108.4,29.6 100.9,19.3 112.9,17"></polygon>
+                    <polygon points="107.2,32.5 107.9,30.3 89.2,39.9"></polygon>
+                    <polygon points="82.4,26.3 86.3,44 74.7,53.4"></polygon>
+                    <polygon points="111.8,22.3 118.8,22.3 113.7,17.2"></polygon>
+                    <path d="M5.4 21.2h15.2v2.2H5.2v17.8c0 0-.7-.1-1.1-.1-.4 0-.9.1-.9.1V23.4v-2.2-.1c0-5.2 2-8.2 7-8.5 4.5-.3 8 2.3 10.4 3.6v2.6l-.3.1c-.4-1-5.8-5.5-9.3-5.1-3.6.4-5.8 2.9-5.8 6.2C5.2 20 5.2 20.9 5.4 21.2L5.4 21.2zM36.6 24.9c3.8-.1 5.7 1.2 5.8 4.1.1 1.6-.6 3.1-1.7 4.4l-1.9.1v-.3c.7-.2 2.3-1.3 2.2-3.3s-1.6-3.6-4-3.5c0 0-.4 0-.6.1L36.6 24.9z"></path>
+                    <polygon points="18.5,23 20.6,23 20.6,41.2 18.5,40.5"></polygon>
+                    <path d="M57.3,25.5c-0.8-2.7-3.1-4.3-4.8-4.3H48v2.2H51c1.3,0,2.6-0.1,3.8,1c0.5,0.5,0.7,1,0.9,1.7 c0.4,1.7-0.4,3.8-2.4,3.8c-0.6,0-1.3,0-1.9-0.2v0.1c0.5,0.6,0.8,1.4,1.2,2.1c1.2-0.2,2.4-0.9,3.2-1.7 C56.9,28.9,57.6,27.3,57.3,25.5"></path>
+                    <path d="M60.6 21.5c-1.3.2-3.3 1.3-4 4.1-.2 1.8.3 3.4 1.5 4.6.7.8 1.8 1.5 2.8 1.7.3-.7.7-1.4 1.1-2.1l-.1-.1c-.5.2-1.1.2-1.7.2-2.1-.1-2.4-2.2-2.1-3.8.3-1.4 1.5-2.8 2.8-2.9 1.4-.1 3.1 1 3.4 2.5.2.8.2 1.6.2 2.4v13.2c0 0 .6-.1 1-.1s1 .1 1 .1V21.4h-2.2v2.2c0-.1.1-.1 0-.3C63.6 22 61.8 21.3 60.6 21.5M47.6 21.2v2.2 17.8c0 0-.6-.1-1-.1s-1 .1-1 .1V23.4H21.1v-2.2H47.6zM20.6 41.2h-.3c-7.8 0-12.2-4.3-12.2-8.6 0-3.6 3.3-7.8 10.9-7.8l1.3 1c-5.3 0-9.6 3.4-9.6 6.8 0 3 3.8 7.8 9.9 7.8V41.2z"></path>
+                    <polygon points="34.8,23 36.9,23 36.9,41.2 34.8,40.5"></polygon>
+                    <path d="M36.9,41.2h-0.3c-7.8,0-12.2-4.3-12.2-8.6c0-3.6,3.3-7.8,10.9-7.8l1.3,1c-5.3,0-9.6,3.4-9.6,6.8 c0,3,3.8,7.8,9.9,7.8V41.2z"></path>
+                </g>
+            </svg>
+            
+            <p>বিকাশ বাংলাদেশের মানুষকে মোবাইল ফোনের মাধ্যমে দ্রুত <br>,নিরাপদে ও সহজে টাকা পাঠানো এবং পেমেন্ট সেবা প্রদান <br> করে </p>
+            <h4>বিকাশ অ্যাপ ডাইনলোড করুন</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-12 col-md-6 d-flex ">
+  <div class="row" style="color: white;">
+      
+<div class="col-lg-3 col-md-4 tomer-ses">
+  <ul style="list-style: none;">
+    <span >সেবা</span>
+    <li><a href="">ক্যাম্পেইন</a></li>
+    <li><a href="">হেল্প</a></li>
+    <li><a href="">কমপ্লেইন্ট সেল</a></li>
+  </ul>
+
+</div>
+
+<div class="col-lg-3 col-md-4 tomer-ses">
+  <ul style="list-style: none;">
+    <span>কোম্পানি</span>
+    <li><a href="">বিকাশ সম্পর্কে</a></li>
+    <li><a href="">যোগাযোগ</a></li>
+    <li><a href="">ক্যারিয়ার</a></li>
+  </ul>
+</div>
+          
+<div class="col-lg-3 col-md-4 tomer-ses">
+          <ul style="list-style: none;">
+            <span>ব্যবসা</span>
+            <li><a href="">বিকাশ সাপ্লায়ার হোন</a></li>
+            <li><a href="">বিকাশ মার্চেন্ট হোন</a></li>
+            <li><a href="">ডিজিটাল বেতন</a></li>
+          </ul>
+</div>
+
+<div class="col-lg-3 col-md-12 tomer-ses">
+              <ul style="list-style: none;">
+                <span>অন্যান্য</span>
+                <li><a href="">শর্তাবলি</a></li>
+                <li><a href="">সাধারণ জিজ্ঞাসা</a></li>
+                <li><a href="">নিরাপত্তা পরামর্শ</a></li>
+              </ul>
+  
+</div>
+
+  </div>     
+        </div>
+      </div>
+    </div>
+    <hr style="background: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h5 style="color: white;">© 2023 bKash, সর্বস্বত্ব সংরক্ষিত</h5>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex justify-content-evenly ">
+
+<div class="d-flex justify-content-between w-50 aktu-lekho" >
+  <div><i class="bi bi-facebook" style="color: white;font-size: 30px;"></i></div>
+  <div><i class="bi bi-youtube" style="color: white;font-size: 30px;"></i></div>
+  <div><i class="bi bi-instagram" style="color: white;font-size: 30px;"></i></div>
+  <div><i class="bi bi-linkedin" style="color: white;font-size: 30px;"></i></div>
+</div>
+
+       </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+</footer>
+<!-- footer end here -->
+
+
+    <!-- ALL JS FILE HERE PLS DONT TOUCH THERE -->
+    <script src="bootstrapefolder/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrapefolder/js/jquery-3.7.1.min.js"></script>
+
+    <script src="bootstrapefolder/js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- ALL JS FILE HERE PLS DONT TOUCH THERE -->
+
+  </body>
+</html>
